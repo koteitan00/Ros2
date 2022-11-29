@@ -4,12 +4,14 @@
   <name>mypkg</name>
   <version>0.0.0</version>
   <description>a package for practice</description>
-  <maintainer email="hoshikairi00@gmail.com">hoshi</maintainer>
+  <maintainer email="hoshikairi00@gmail.com">Hoshi Kairi</maintainer>
   <license>BSD-3-Clause</license>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <exec_depend>launch_ros</exec_depend>
+  <exec_depend>rclpy</exec_depend>            
+  <exec_depend>std_msgs</exec_depend> 
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
   <export>
