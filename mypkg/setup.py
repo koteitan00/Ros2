@@ -1,4 +1,6 @@
 from setuptools import setup
+import os
+from glob import glob
 
 package_name = 'mypkg'
 
@@ -21,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
     'console_scripts': [
-        'talker = mypkg.talker:main',   
+        'talker = mypkg.talker:main',
+        #'listener = mypkg.listener:main'
     ],
     },
 )

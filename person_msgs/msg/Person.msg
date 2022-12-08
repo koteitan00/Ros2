@@ -1,2 +1,2 @@
-string name
-uint8 age 
+string name 
+unit8 age
